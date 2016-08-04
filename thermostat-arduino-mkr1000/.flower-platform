@@ -1,0 +1,111 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_1713138335" CREATED="1467376347494" MODIFIED="1467376347494"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-cpp-arduino-ide"/>
+<attribute NAME="currentBoard" VALUE="ID_833953424"/>
+<node TEXT="" POSITION="right" ID="ID_960826308" CREATED="1467376349724" MODIFIED="1467376349724">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_394464892" CREATED="1467376558282" MODIFIED="1467376558282">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__DHTSensor"/>
+<attribute NAME="pollInterval" VALUE="1000"/>
+<attribute NAME="pin" VALUE="5"/>
+<attribute NAME="name" VALUE="sensor"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__DHTSensor"/>
+<attribute NAME="contributesToState" VALUE="true"/>
+<node TEXT="" ID="ID_1365570631" CREATED="1467376669316" MODIFIED="1467376669316">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onTemperatureChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;8!=cU~Dp0kU=vI`.fI@q&quot; x=&quot;14&quot; y=&quot;19&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.println(event-&amp;gt;currentValue)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;JA^mL6X`6)H5nkp7DY[y&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;currentTemperature&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;YXy@rXR,(j;y=ow1b0pg&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event-&amp;gt;currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_496215062" CREATED="1467376644231" MODIFIED="1467376644231">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="pin" VALUE="7"/>
+<attribute NAME="name" VALUE="relay"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="contributesToState" VALUE="true"/>
+<attribute NAME="initialValue" VALUE="1"/>
+</node>
+<node TEXT="" ID="ID_1468642957" CREATED="1467378333400" MODIFIED="1467378333400">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer"/>
+<attribute NAME="port" VALUE="80"/>
+<attribute NAME="name" VALUE="httpServer"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer"/>
+</node>
+<node TEXT="" ID="ID_1352153182" CREATED="1467378375228" MODIFIED="1467378375228">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__WiFi101NetworkAdapter"/>
+<attribute NAME="protocolHandler" VALUE="httpServer"/>
+<attribute NAME="name" VALUE="networkAdapter"/>
+<attribute NAME="ssid" VALUE="wifi-work"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__WiFi101NetworkAdapter"/>
+<attribute NAME="password" VALUE="wifi-work-pass-123"/>
+<attribute NAME="ipAddressStr" VALUE="192.168.100.252"/>
+</node>
+<node TEXT="" ID="ID_1323073013" CREATED="1467387335443" MODIFIED="1467387335443">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
+<attribute NAME="name" VALUE="timer"/>
+<attribute NAME="delay" VALUE="1000"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
+<attribute NAME="autoStart" VALUE="true"/>
+<node TEXT="" ID="ID_576552173" CREATED="1467387431243" MODIFIED="1467387431243">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onTimer"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;K=!;{2{]q!z|Q-1XD]:D&quot; x=&quot;41&quot; y=&quot;91&quot;&gt;&lt;mutation else=&quot;1&quot;&gt;&lt;/mutation&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;,8(|q=a_yy5HI}|wvo@)&quot;&gt;&lt;field name=&quot;OP&quot;&gt;GTE&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;*AdFfU[-@^vE(x5I%QcU&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;currentTemperature&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Spj8jOJJ(EG3cL})V@D8&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;presetTemperature&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;CXlj]`uth;j#K66a2f[(&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;relay.setValue(HIGH)&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;statement name=&quot;ELSE&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;u3T)t2Ad#y+5A)T]k?[}&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;relay.setValue(LOW)&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1063525338" CREATED="1467376349726" MODIFIED="1467376349726">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+<node TEXT="" ID="ID_55394877" CREATED="1467387295607" MODIFIED="1467387295607">
+<attribute NAME="nodeType" VALUE="variable"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="currentTemperature"/>
+<attribute NAME="type" VALUE="variable"/>
+</node>
+<node TEXT="" ID="ID_1978822029" CREATED="1467376691599" MODIFIED="1467376691599">
+<attribute NAME="nodeType" VALUE="variable"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="presetTemperature"/>
+<attribute NAME="type" VALUE="variable"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1000341049" CREATED="1467376349728" MODIFIED="1467376349728">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+<node TEXT="" ID="ID_772308540" CREATED="1467378457263" MODIFIED="1467378457263">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="name" VALUE="setDesiredTemperature"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;Bz/AvI5s+MxuMAbp~=n,&quot; x=&quot;85&quot; y=&quot;15&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;presetTemperature&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Sdl^WwFZ0t;67xfT_;De&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;temperature&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_593791696" CREATED="1467378566899" MODIFIED="1467378566899">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="temperature"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+</node>
+</node>
+</map>
