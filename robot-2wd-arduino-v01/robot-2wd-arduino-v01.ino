@@ -15,8 +15,17 @@ public:
 	Output M2A;
 	Output M2B;
 	HttpServer httpServer;
-	EthernetNetworkAdapter ethernetNetworkAdapter1;
+	EthernetNetworkAdapter ethernetNetworkAdapter;
 
+
+	AppGen()
+		: M1A(3)
+		, M1B(5)
+		, M2A(6)
+		, M2B(9)
+		, httpServer(80)
+		, ethernetNetworkAdapter("192.168.100.252","00:00:01:02:03:04")
+	{};
 
 	void goLeft() {
         M1A.setValue(0);
@@ -145,34 +154,24 @@ public:
 	}
 
 	void setup() {
-		M1A.pin = 3;
-		M1A.initialValue = 0;
 		M1A.isPwm = true;
 
-		M1B.pin = 5;
-		M1B.initialValue = 0;
 		M1B.isPwm = true;
 
-		M2A.pin = 6;
-		M2A.initialValue = 0;
 		M2A.isPwm = true;
 
-		M2B.pin = 9;
-		M2B.initialValue = 0;
 		M2B.isPwm = true;
 
 		httpServer.port = 80;
 		httpServer.onCommandReceived = new DelegatingCallback<AppGen, HttpCommandEvent>(this, &AppGen::httpServer_onCommandReceived); 
 
-		ethernetNetworkAdapter1.macAddressStr = "00:0a:95:9d:68:16";
-		ethernetNetworkAdapter1.protocolHandler = &httpServer;
-		ethernetNetworkAdapter1.ipAddressStr = "192.168.100.252";
+		ethernetNetworkAdapter.protocolHandler = &httpServer;
 
 		M1A.setup();
 		M1B.setup();
 		M2A.setup();
 		M2B.setup();
-		ethernetNetworkAdapter1.setup();
+		ethernetNetworkAdapter.setup();
 	}
 
 	void loop() {
@@ -180,9 +179,9 @@ public:
 		M1B.loop();
 		M2A.loop();
 		M2B.loop();
-		ethernetNetworkAdapter1.loop();
+		ethernetNetworkAdapter.loop();
 	}
-	
+
 };
 
 #include "CustomCode.h"

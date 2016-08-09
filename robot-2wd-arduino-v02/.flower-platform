@@ -31,6 +31,8 @@
 <attribute NAME="name" VALUE="M1A"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
 <attribute NAME="initialValue" VALUE="0"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="3"/>
 </node>
 <node TEXT="" ID="ID_145622757" CREATED="1469015949913" MODIFIED="1469015949913">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
@@ -39,6 +41,8 @@
 <attribute NAME="name" VALUE="M1B"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
 <attribute NAME="initialValue" VALUE="0"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="5"/>
 </node>
 <node TEXT="" ID="ID_1715846499" CREATED="1469016047965" MODIFIED="1469016047965">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
@@ -47,6 +51,8 @@
 <attribute NAME="name" VALUE="M2A"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
 <attribute NAME="initialValue" VALUE="0"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="6"/>
 </node>
 <node TEXT="" ID="ID_308859792" CREATED="1469016077249" MODIFIED="1469016077249">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
@@ -55,12 +61,16 @@
 <attribute NAME="name" VALUE="M2B"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
 <attribute NAME="initialValue" VALUE="0"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="9"/>
 </node>
 <node TEXT="" ID="ID_1346254471" CREATED="1469018804964" MODIFIED="1469018804964">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer"/>
 <attribute NAME="port" VALUE="80"/>
 <attribute NAME="name" VALUE="httpServer"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.port" VALUE="80"/>
 </node>
 <node TEXT="" ID="ID_969939652" CREATED="1469020449814" MODIFIED="1469020449814">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__EthernetNetworkAdapter"/>
@@ -68,17 +78,9 @@
 <attribute NAME="name" VALUE="ethernetNetworkAdapter1"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__EthernetNetworkAdapter"/>
 <attribute NAME="ipAddressStr" VALUE="192.168.100.252"/>
-<attribute NAME="macAddressStr" VALUE="00:0a:95:9d:68:16"/>
-</node>
-<node TEXT="" ID="ID_852501306" CREATED="1469790628347" MODIFIED="1469790628347">
-<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__NewPing"/>
-<attribute NAME="ping_result" VALUE="0"/>
-<attribute NAME="name" VALUE="newPing"/>
-<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__NewPing"/>
-<attribute NAME="constructorVariant" VALUE="&quot;Construcorul preia 3 parametrii: pinul Trig, pinul Echo si distanta maxima&quot;"/>
-<attribute NAME="constructorArgument.trigger_pin" VALUE="8"/>
-<attribute NAME="constructorArgument.echo_pin" VALUE="7"/>
-<attribute NAME="constructorArgument.max_cm_distance" VALUE="200"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.ipAddress" VALUE="192.168.100.252"/>
+<attribute NAME="constructorArgument.macAddress" VALUE="00:00:01:02:03:04"/>
 </node>
 <node TEXT="" ID="ID_870510267" CREATED="1469791447133" MODIFIED="1469791447133">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
@@ -86,12 +88,23 @@
 <attribute NAME="name" VALUE="timer"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
 <attribute NAME="autoStart" VALUE="true"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.autoStart" VALUE="true"/>
 <node TEXT="" ID="ID_177923246" CREATED="1469791460580" MODIFIED="1469791460580">
 <attribute NAME="nodeType" VALUE="eventHandler"/>
 <attribute NAME="name" VALUE="onTimer"/>
 <attribute NAME="type" VALUE="eventHandler"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;ososNKi7cl{4l|0sjinr&quot; x=&quot;70&quot; y=&quot;43&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distance&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;})YD!_I654,t;3Ent+hK&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;newPing.ping_cm()&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;cTBE`feFO[k?%(gbQD,?&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_logic_operation_and&quot; id=&quot;-H/~!~KR4-+WN7UTD1T8&quot;&gt;&lt;field name=&quot;OP&quot;&gt;AND&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_logic_operation_and&quot; id=&quot;m~t9MZ(37H3nUVX`}5=S&quot;&gt;&lt;field name=&quot;OP&quot;&gt;AND&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;rPUd`(]Ajmb)-i4xqi@s&quot;&gt;&lt;field name=&quot;OP&quot;&gt;GT&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;YhIo%.C?w.GAA]}leM^h&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distance&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;;|^_p4I/at}Ya(UF78vl&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;^gsKGcVx=}5TWY{YwcC1&quot;&gt;&lt;field name=&quot;OP&quot;&gt;LTE&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;C%A:)*O|l#JF7pZ/fkrJ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distance&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;h6ZV(GDBr[7I!z=@`K7,&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;10&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_logic_compare&quot; id=&quot;u^M|z[Vb~NER~B^}ch^)&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;9+udXC~eS,teJ4dw9vkZ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_logic_boolean_false&quot; id=&quot;hlulTnL42^YThXu7ObpU&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;F^bUvYqVP^r9WE{z`e~k&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;avoid()&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;ososNKi7cl{4l|0sjinr&quot; x=&quot;70&quot; y=&quot;43&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distance&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;})YD!_I654,t;3Ent+hK&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;ultrasonicDistanceSensor.ping_cm()&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;cTBE`feFO[k?%(gbQD,?&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_logic_operation_and&quot; id=&quot;-H/~!~KR4-+WN7UTD1T8&quot;&gt;&lt;field name=&quot;OP&quot;&gt;AND&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_logic_operation_and&quot; id=&quot;m~t9MZ(37H3nUVX`}5=S&quot;&gt;&lt;field name=&quot;OP&quot;&gt;AND&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;rPUd`(]Ajmb)-i4xqi@s&quot;&gt;&lt;field name=&quot;OP&quot;&gt;GT&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;YhIo%.C?w.GAA]}leM^h&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distance&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;;|^_p4I/at}Ya(UF78vl&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;^gsKGcVx=}5TWY{YwcC1&quot;&gt;&lt;field name=&quot;OP&quot;&gt;LTE&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;C%A:)*O|l#JF7pZ/fkrJ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distance&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;h6ZV(GDBr[7I!z=@`K7,&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;10&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_logic_compare&quot; id=&quot;u^M|z[Vb~NER~B^}ch^)&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;9+udXC~eS,teJ4dw9vkZ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_logic_boolean_false&quot; id=&quot;hlulTnL42^YThXu7ObpU&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;F^bUvYqVP^r9WE{z`e~k&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;avoid()&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 </node>
+</node>
+<node TEXT="" ID="ID_365518845" CREATED="1470750091852" MODIFIED="1470750091852">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__UltrasonicDistanceSensor"/>
+<attribute NAME="constructorArgument.echo_pin" VALUE="7"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="ultrasonicDistanceSensor"/>
+<attribute NAME="constructorArgument.trigger_pin" VALUE="8"/>
+<attribute NAME="constructorArgument.max_cm_distance" VALUE="200"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__UltrasonicDistanceSensor"/>
 </node>
 </node>
 <node TEXT="" POSITION="right" ID="ID_13262438" CREATED="1469014600767" MODIFIED="1469014600767">
@@ -125,7 +138,7 @@
 <attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="goFront"/>
 <attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;|H=TAF5z#ksZp~+7y|p(&quot; x=&quot;157&quot; y=&quot;-11&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;h9a|CiOPeZ1-!?wO:KdS&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;}^.Nr{)3Nzw..}iIXcR]&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;B3^7a-Rnq5HTvOiKRLw,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;|H=TAF5z#ksZp~+7y|p(&quot; x=&quot;-299&quot; y=&quot;-273&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;h9a|CiOPeZ1-!?wO:KdS&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;}^.Nr{)3Nzw..}iIXcR]&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;B3^7a-Rnq5HTvOiKRLw,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 </node>
 <node TEXT="" ID="ID_859910153" CREATED="1469093591267" MODIFIED="1469093591267">
 <attribute NAME="nodeType" VALUE="function"/>
@@ -133,7 +146,7 @@
 <attribute NAME="dataType" VALUE="void"/>
 <attribute NAME="name" VALUE="goBack"/>
 <attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;JbskgHmV3Wa9M9F|Rhea&quot; x=&quot;189&quot; y=&quot;19&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;6L(hYyIM|%;!u*v[i~_u&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;UyrlARDQ^GE~_B-bwL(V&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;[pjaJQcZ5;r%])fUnaS!&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;JbskgHmV3Wa9M9F|Rhea&quot; x=&quot;-277&quot; y=&quot;-288&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;6L(hYyIM|%;!u*v[i~_u&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;UyrlARDQ^GE~_B-bwL(V&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;[pjaJQcZ5;r%])fUnaS!&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 </node>
 <node TEXT="" ID="ID_1191715901" CREATED="1469093615634" MODIFIED="1469093615634">
 <attribute NAME="nodeType" VALUE="function"/>
@@ -141,7 +154,7 @@
 <attribute NAME="dataType" VALUE="void"/>
 <attribute NAME="name" VALUE="goRight"/>
 <attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lVB)_*p`0FA_cgmQI:}c&quot; x=&quot;-283&quot; y=&quot;-134&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;_ys=,G%k1,,}:d#Fg{zM&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;ji@Is|A~tv{Wv2qgLcy,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;e5l7(~H7M?MOfCYGQ/c@&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;wk[WjQqnnZ#uv:8cYGdo&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;delay(1200)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;fWM7nm?wi[|NYHlGF~`a&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;goFront()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lVB)_*p`0FA_cgmQI:}c&quot; x=&quot;-283&quot; y=&quot;-194&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;_ys=,G%k1,,}:d#Fg{zM&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;ji@Is|A~tv{Wv2qgLcy,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;e5l7(~H7M?MOfCYGQ/c@&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(255)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;wk[WjQqnnZ#uv:8cYGdo&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;delay(1200)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;fWM7nm?wi[|NYHlGF~`a&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;goFront()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;FALSE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 </node>
 <node TEXT="" ID="ID_584389711" CREATED="1469093883883" MODIFIED="1469093883883">
 <attribute NAME="nodeType" VALUE="function"/>
@@ -149,7 +162,7 @@
 <attribute NAME="dataType" VALUE="void"/>
 <attribute NAME="name" VALUE="stop"/>
 <attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot; x=&quot;-345&quot; y=&quot;-357&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;TRUE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lVB)_*p`0FA_cgmQI:}c&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;_ys=,G%k1,,}:d#Fg{zM&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;ji@Is|A~tv{Wv2qgLcy,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;e5l7(~H7M?MOfCYGQ/c@&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(0)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;_1e]oODNIg4vpwg`s!74&quot; x=&quot;-327&quot; y=&quot;-288&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;isStopped&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;~!b*;(,0N_t;WjU29@eV&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;TRUE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lVB)_*p`0FA_cgmQI:}c&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;_ys=,G%k1,,}:d#Fg{zM&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M1B.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;ji@Is|A~tv{Wv2qgLcy,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2A.setValue(0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;e5l7(~H7M?MOfCYGQ/c@&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;M2B.setValue(0)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 </node>
 <node TEXT="" ID="ID_122900307" CREATED="1469791923744" MODIFIED="1469791923744">
 <attribute NAME="nodeType" VALUE="function"/>

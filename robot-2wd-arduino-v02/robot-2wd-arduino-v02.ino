@@ -5,8 +5,8 @@
 #include <Output.h>
 #include <HttpServer.h>
 #include <EthernetNetworkAdapter.h>
-#include <NewPing.h>
 #include <Timer.h>
+#include <UltrasonicDistanceSensor.h>
 
 
 class AppGen {
@@ -18,13 +18,23 @@ public:
 	Output M2B;
 	HttpServer httpServer;
 	EthernetNetworkAdapter ethernetNetworkAdapter1;
-	NewPing newPing;
 	Timer timer;
+	UltrasonicDistanceSensor ultrasonicDistanceSensor;
 
 	int distance;
 	boolean isStopped;
-	AppGen() : newPing(8,7,200) {}
-			
+
+	AppGen()
+		: M1A(3)
+		, M1B(5)
+		, M2A(6)
+		, M2B(9)
+		, httpServer(80)
+		, ethernetNetworkAdapter1("192.168.100.252","00:00:01:02:03:04")
+		, timer(true)
+		, ultrasonicDistanceSensor(8,7,200)
+	{};
+
 	void goLeft() {
         M1A.setValue(0);
         M1B.setValue(255);
@@ -58,7 +68,7 @@ public:
         M1A.setValue(0);
         M1B.setValue(0);
         M2A.setValue(0);
-        M2B.setValue(0);
+        M2B.setValue(255);
         delay(1200);
         goFront();
         isStopped = false;
@@ -85,7 +95,7 @@ public:
 	}
 
 	void timer_onTimer(TimerEvent* event) {
-        distance = newPing.ping_cm();
+        distance = ultrasonicDistanceSensor.ping_cm();
         if ( (((distance > 0) && (distance <= 10)) && (isStopped == false)) ) {
             avoid();
         }
@@ -174,33 +184,22 @@ public:
 	}
 
 	void setup() {
-		M1A.pin = 3;
-		M1A.initialValue = 0;
 		M1A.isPwm = true;
 
-		M1B.pin = 5;
-		M1B.initialValue = 0;
 		M1B.isPwm = true;
 
-		M2A.pin = 6;
-		M2A.initialValue = 0;
 		M2A.isPwm = true;
 
-		M2B.pin = 9;
-		M2B.initialValue = 0;
 		M2B.isPwm = true;
 
 		httpServer.port = 80;
 		httpServer.onCommandReceived = new DelegatingCallback<AppGen, HttpCommandEvent>(this, &AppGen::httpServer_onCommandReceived); 
 
-		ethernetNetworkAdapter1.macAddressStr = "00:0a:95:9d:68:16";
 		ethernetNetworkAdapter1.protocolHandler = &httpServer;
-		ethernetNetworkAdapter1.ipAddressStr = "192.168.100.252";
-
 
 		timer.delay = 20;
-		timer.autoStart = true;
 		timer.onTimer = new DelegatingCallback<AppGen, TimerEvent>(this, &AppGen::timer_onTimer); 
+
 
 		M1A.setup();
 		M1B.setup();
@@ -218,7 +217,7 @@ public:
 		ethernetNetworkAdapter1.loop();
 		timer.loop();
 	}
-	
+
 };
 
 #include "CustomCode.h"
