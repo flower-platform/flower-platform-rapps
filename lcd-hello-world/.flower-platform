@@ -1,0 +1,88 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_120885174" CREATED="1469801480003" MODIFIED="1469801480003"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-cpp-arduino-ide"/>
+<attribute NAME="repositoryType" VALUE="arduino"/>
+<node TEXT="" POSITION="right" ID="ID_588338910" CREATED="1469801480041" MODIFIED="1469801480041">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_1228201434" CREATED="1471002958376" MODIFIED="1471002958376">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__LiquidCrystalComponent"/>
+<attribute NAME="constructorArgument.d0" VALUE="7"/>
+<attribute NAME="constructorArgument.d3" VALUE="3"/>
+<attribute NAME="constructorArgument.d2" VALUE="5"/>
+<attribute NAME="constructorArgument.d1" VALUE="6"/>
+<attribute NAME="name" VALUE="lcd"/>
+<attribute NAME="constructorArgument.rs" VALUE="9"/>
+<attribute NAME="constructorArgument.fourbitmode" VALUE="true"/>
+<attribute NAME="constructorVariant" VALUE="Direct wiring"/>
+<attribute NAME="constructorArgument.rw" VALUE="255"/>
+<attribute NAME="constructorArgument.enable" VALUE="8"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__LiquidCrystalComponent"/>
+<attribute NAME="constructorArgument.d4" VALUE="0"/>
+<attribute NAME="constructorArgument.d5" VALUE="0"/>
+<attribute NAME="constructorArgument.d6" VALUE="0"/>
+<attribute NAME="constructorArgument.d7" VALUE="0"/>
+</node>
+<node TEXT="" ID="ID_1441005999" CREATED="1471003700460" MODIFIED="1471003700460">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="internalPullUp" VALUE="true"/>
+<attribute NAME="pin" VALUE="A0"/>
+<attribute NAME="name" VALUE="button1"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<node TEXT="" ID="ID_1679121482" CREATED="1471003873344" MODIFIED="1471003873344">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;Q?=bwp:!K`X;.Hjn*3~I&quot; x=&quot;255&quot; y=&quot;159&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;lcd.setCursor(0,1)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;n%[WUjz9s]r^=GWwd}(b&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;lcd.print(&quot;Button 1 pressed!&quot;)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1168573151" CREATED="1471003722760" MODIFIED="1471003722760">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="internalPullUp" VALUE="true"/>
+<attribute NAME="pin" VALUE="A1"/>
+<attribute NAME="name" VALUE="button2"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<node TEXT="" ID="ID_606895102" CREATED="1471011316461" MODIFIED="1471011316461">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;%0UWq]x)]C5kU7F~}]AJ&quot; x=&quot;190&quot; y=&quot;111&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;lcd.setCursor(0, 1)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;!umBU!R}o^lCD2ADZ=~n&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;lcd.print(&quot;Button 2 pressed!&quot;)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_574603117" CREATED="1469801480042" MODIFIED="1469801480042">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1045162653" CREATED="1469801480043" MODIFIED="1469801480043">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+<node TEXT="" ID="ID_846636448" CREATED="1471003912179" MODIFIED="1471003912179">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="dataType" VALUE="void"/>
+<attribute NAME="name" VALUE="setup"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;=}}I8?^1!{B9e[B:c7yK&quot; x=&quot;157&quot; y=&quot;146&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;lcd.begin(16,2)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;57@MNjd2Q?B:]8YHxZy3&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;lcd.setCursor(0, 0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;!PomrZ;+2TP2|M|CHnrn&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;lcd.print(&quot;Press a button!&quot;)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+</node>
+</map>
