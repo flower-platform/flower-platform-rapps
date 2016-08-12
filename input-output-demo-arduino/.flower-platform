@@ -1,0 +1,129 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_794064459" CREATED="1470899530963" MODIFIED="1470899530963"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-cpp-arduino-ide"/>
+<attribute NAME="repositoryType" VALUE="arduino"/>
+<node TEXT="" POSITION="right" ID="ID_979305634" CREATED="1470899530983" MODIFIED="1470899530983">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_680798653" CREATED="1470899605437" MODIFIED="1470899605437">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="false"/>
+<attribute NAME="constructorArgument.isAnalog" VALUE="true"/>
+<attribute NAME="name" VALUE="analogInput"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="A0"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="contributesToState" VALUE="true"/>
+<node TEXT="" ID="ID_1161105599" CREATED="1470905225371" MODIFIED="1470905225371">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;NQt0d`x1{8i3Is+)-_7r&quot; x=&quot;-962&quot; y=&quot;-364&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;led2.setValue(map(event-&amp;gt;currentValue, 0, 1023, 0, 255))&lt;/field&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1790514100" CREATED="1470899893169" MODIFIED="1470899893169">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer"/>
+<attribute NAME="name" VALUE="httpServer"/>
+<attribute NAME="constructorArgument.port" VALUE="80"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer"/>
+</node>
+<node TEXT="" ID="ID_1878579798" CREATED="1470900194345" MODIFIED="1470900194345">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__EthernetNetworkAdapter"/>
+<attribute NAME="protocolHandler" VALUE="httpServer"/>
+<attribute NAME="name" VALUE="networkAdapter"/>
+<attribute NAME="constructorArgument.ipAddress" VALUE="192.168.100.253"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__EthernetNetworkAdapter"/>
+<attribute NAME="constructorArgument.macAddress" VALUE="2A:E0:F4:BE:EF:A2"/>
+</node>
+<node TEXT="" ID="ID_261495182" CREATED="1470902203728" MODIFIED="1470902203728">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="constructorArgument.isAnalog" VALUE="false"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="false"/>
+<attribute NAME="name" VALUE="pushButton"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="5"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<node TEXT="" ID="ID_258882206" CREATED="1470906751215" MODIFIED="1470906751215">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;j]VD+_a(;N@[MLRcMfJH&quot; x=&quot;-574&quot; y=&quot;-33&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;tvC*eii|X*X=Kt{X4{Z@&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;JeF(7[R3}J6#jd4{3)Oa&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event-&amp;gt;currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;j:R08B/^AI*c}fIqM^e%&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;LOW&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;g:gFI[rlx-=AqlyD/b@{&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;led1.toggleHighLow()&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_472585030" CREATED="1470905160621" MODIFIED="1470905160621">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="name" VALUE="led1"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="2"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="contributesToState" VALUE="true"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="false"/>
+<attribute NAME="constructorArgument.initialValue" VALUE="LOW"/>
+</node>
+<node TEXT="" ID="ID_1643380320" CREATED="1470905194170" MODIFIED="1470905194170">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="name" VALUE="led2"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="3"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="contributesToState" VALUE="true"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="true"/>
+<attribute NAME="constructorArgument.initialValue" VALUE="LOW"/>
+</node>
+<node TEXT="" ID="ID_707615597" CREATED="1470907056759" MODIFIED="1470907056759">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="pollInterval" VALUE="50"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="true"/>
+<attribute NAME="constructorArgument.isAnalog" VALUE="false"/>
+<attribute NAME="name" VALUE="internalPullUpButton"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="6"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="contributesToState" VALUE="true"/>
+<node TEXT="" ID="ID_639658260" CREATED="1470907121059" MODIFIED="1470907121059">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;09^70I#}Z5qCJ4:{uD9f&quot; x=&quot;44&quot; y=&quot;47&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;5=D4%?qbE:fH]@3elioS&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;0Z#8)OHVS9wr}|:_/?3z&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event-&amp;gt;currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;J7bQYyD0%;6-FmPyb_xi&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;LOW&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;@o_#1A=,gIO=}Ai)uBBl&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;led1.toggleHighLow()&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_635482086" CREATED="1470986930084" MODIFIED="1470986930084">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="constructorArgument.isAnalog" VALUE="false"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="true"/>
+<attribute NAME="name" VALUE="input1"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="5"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_954058632" CREATED="1470899530993" MODIFIED="1470899530993">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+</node>
+<node TEXT="" POSITION="right" ID="ID_135936369" CREATED="1470899530993" MODIFIED="1470899530993">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+</node>
+</node>
+</map>
