@@ -262,14 +262,6 @@
 <attribute NAME="textColor" VALUE="#a94442"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1126624643" CREATED="1471353198640" MODIFIED="1471353198640">
-<attribute NAME="nodeType" VALUE="function"/>
-<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="dataType" VALUE="void"/>
-<attribute NAME="name" VALUE="testElseIf"/>
-<attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;cW1-R:=KA`f11@uB;1u?&quot; x=&quot;9&quot; y=&quot;3&quot;&gt;&lt;mutation elseif=&quot;2&quot; else=&quot;1&quot;&gt;&lt;/mutation&gt;&lt;/block&gt;&lt;/xml&gt;"/>
-</node>
 </node>
 </node>
 </map>
