@@ -33,12 +33,12 @@ public:
 
 	}
 
-	String testCompareFunction(String second, String first) {
+	String testCompareFunction(String first, String second) {
         if ( (((String)first) > ((String)second)) ) {
-            return "first <  second";
+            return "first >  second";
         }
-        if ( (((String)first) > ((String)second)) ) {
-            return "first > second";
+        if ( (((String)first) < ((String)second)) ) {
+            return "first < second";
         }
         if ( (((String)first) == ((String)second)) ) {
             return "first =  second";
@@ -46,8 +46,8 @@ public:
 
 	}
 
-	String testLowerCase(String  text) {
-        return changeCaseOfString(((String)text), "upper");
+	String testLowerCaseFunction(String text) {
+        return changeCaseOfString(((String)text), "lower");
 
 	}
 
@@ -56,12 +56,22 @@ public:
 
 	}
 
-	String testUppercase(String text) {
-        return changeCaseOfString(((String)text), "lower");
+	String testUppercaseFunction(String text) {
+        return changeCaseOfString(((String)text), "upper");
 
 	}
 
-	String testStartsAtText(String text, String piece) {
+	String testReplaceFunction(String text, String segment, String replacement) {
+        return getReplacedString(((String)text), ((String)segment), ((String)replacement));
+
+	}
+
+	String testSegmentTextFunction(String text, int start, int len) {
+        return ((String)text).substring(start - 1, start + len - 1);
+
+	}
+
+	int testStartsAtTextFunction(String text, String piece) {
         return ((String)text).indexOf(piece);
 
 	}
@@ -71,11 +81,20 @@ public:
 
 	}
 
-	String testContainstText(String piece, String text) {
+	String testContainsTextFunction(String text, String piece) {
         if ( ((String)text).indexOf(piece) != -1 ) {
             return "Contains";
         } else {
             return "Does not contain!";
+        }
+
+	}
+
+	void testElseIf() {
+        if ( true ) {
+        } elif ( true ) {
+        } elif (  true) {
+        } else {
         }
 
 	}
@@ -86,7 +105,7 @@ public:
 		event->server->getCommandFromUrl(event->url, command);
 		bool urlFound = false;
 		
-		char returnValueBuf[64];
+		char returnValueBuf[64] = "";
 		char *returnValueJson = NULL;
 		
 		BufferedPrint out(event->client);
@@ -129,22 +148,24 @@ public:
 			strcat(returnValueJson, "\"");
 		} else if (strcmp_P(command, PSTR("testCompareFunction")) == 0) {
 			urlFound = true;
-			char secondBuf[32];
-			event->server->getStringParameterValue(event->url, "second", secondBuf);
-			String second = secondBuf;
 			char firstBuf[32];
 			event->server->getStringParameterValue(event->url, "first", firstBuf);
 			String first = firstBuf;
+			char secondBuf[32];
+			event->server->getStringParameterValue(event->url, "second", secondBuf);
+			String second = secondBuf;
 			returnValueJson = returnValueBuf;
 			strcat(returnValueJson, "\"");
-			strcat(returnValueJson, testCompareFunction(second, first).c_str());
+			strcat(returnValueJson, testCompareFunction(first, second).c_str());
 			strcat(returnValueJson, "\"");
-		} else if (strcmp_P(command, PSTR("testLowerCase")) == 0) {
+		} else if (strcmp_P(command, PSTR("testLowerCaseFunction")) == 0) {
 			urlFound = true;
-			int text = event->server->getIntParameterValue(event->url, "text");
+			char textBuf[32];
+			event->server->getStringParameterValue(event->url, "text", textBuf);
+			String text = textBuf;
 			returnValueJson = returnValueBuf;
 			strcat(returnValueJson, "\"");
-			strcat(returnValueJson, testLowerCase(text).c_str());
+			strcat(returnValueJson, testLowerCaseFunction(text).c_str());
 			strcat(returnValueJson, "\"");
 		} else if (strcmp_P(command, PSTR("testJoinFunction")) == 0) {
 			urlFound = true;
@@ -158,16 +179,42 @@ public:
 			strcat(returnValueJson, "\"");
 			strcat(returnValueJson, testJoinFunction(first, second).c_str());
 			strcat(returnValueJson, "\"");
-		} else if (strcmp_P(command, PSTR("testUppercase")) == 0) {
+		} else if (strcmp_P(command, PSTR("testUppercaseFunction")) == 0) {
 			urlFound = true;
 			char textBuf[32];
 			event->server->getStringParameterValue(event->url, "text", textBuf);
 			String text = textBuf;
 			returnValueJson = returnValueBuf;
 			strcat(returnValueJson, "\"");
-			strcat(returnValueJson, testUppercase(text).c_str());
+			strcat(returnValueJson, testUppercaseFunction(text).c_str());
 			strcat(returnValueJson, "\"");
-		} else if (strcmp_P(command, PSTR("testStartsAtText")) == 0) {
+		} else if (strcmp_P(command, PSTR("testReplaceFunction")) == 0) {
+			urlFound = true;
+			char textBuf[32];
+			event->server->getStringParameterValue(event->url, "text", textBuf);
+			String text = textBuf;
+			char segmentBuf[32];
+			event->server->getStringParameterValue(event->url, "segment", segmentBuf);
+			String segment = segmentBuf;
+			char replacementBuf[32];
+			event->server->getStringParameterValue(event->url, "replacement", replacementBuf);
+			String replacement = replacementBuf;
+			returnValueJson = returnValueBuf;
+			strcat(returnValueJson, "\"");
+			strcat(returnValueJson, testReplaceFunction(text, segment, replacement).c_str());
+			strcat(returnValueJson, "\"");
+		} else if (strcmp_P(command, PSTR("testSegmentTextFunction")) == 0) {
+			urlFound = true;
+			char textBuf[32];
+			event->server->getStringParameterValue(event->url, "text", textBuf);
+			String text = textBuf;
+			int start = event->server->getIntParameterValue(event->url, "start");
+			int len = event->server->getIntParameterValue(event->url, "len");
+			returnValueJson = returnValueBuf;
+			strcat(returnValueJson, "\"");
+			strcat(returnValueJson, testSegmentTextFunction(text, start, len).c_str());
+			strcat(returnValueJson, "\"");
+		} else if (strcmp_P(command, PSTR("testStartsAtTextFunction")) == 0) {
 			urlFound = true;
 			char textBuf[32];
 			event->server->getStringParameterValue(event->url, "text", textBuf);
@@ -176,9 +223,7 @@ public:
 			event->server->getStringParameterValue(event->url, "piece", pieceBuf);
 			String piece = pieceBuf;
 			returnValueJson = returnValueBuf;
-			strcat(returnValueJson, "\"");
-			strcat(returnValueJson, testStartsAtText(text, piece).c_str());
-			strcat(returnValueJson, "\"");
+			itoa(testStartsAtTextFunction(text, piece), returnValueJson, 10);
 		} else if (strcmp_P(command, PSTR("testTrimFunction")) == 0) {
 			urlFound = true;
 			char textBuf[32];
@@ -188,18 +233,21 @@ public:
 			strcat(returnValueJson, "\"");
 			strcat(returnValueJson, testTrimFunction(text).c_str());
 			strcat(returnValueJson, "\"");
-		} else if (strcmp_P(command, PSTR("testContainstText")) == 0) {
+		} else if (strcmp_P(command, PSTR("testContainsTextFunction")) == 0) {
 			urlFound = true;
-			char pieceBuf[32];
-			event->server->getStringParameterValue(event->url, "piece", pieceBuf);
-			String piece = pieceBuf;
 			char textBuf[32];
 			event->server->getStringParameterValue(event->url, "text", textBuf);
 			String text = textBuf;
+			char pieceBuf[32];
+			event->server->getStringParameterValue(event->url, "piece", pieceBuf);
+			String piece = pieceBuf;
 			returnValueJson = returnValueBuf;
 			strcat(returnValueJson, "\"");
-			strcat(returnValueJson, testContainstText(piece, text).c_str());
+			strcat(returnValueJson, testContainsTextFunction(text, piece).c_str());
 			strcat(returnValueJson, "\"");
+		} else if (strcmp_P(command, PSTR("testElseIf")) == 0) {
+			urlFound = true;
+			testElseIf();
 		} else if (strcmp_P(command, PSTR("getCommands")) == 0) {
 			printCommandDescriptorsAsJson(&out);
 			out.flush();
@@ -221,13 +269,16 @@ public:
 		print->print(F("["));
 		print->print(F("{\"command\":\"testLengthFunction\", \"parameters\":\"text:String\"}"));
 		print->print(F(",{\"command\":\"testIsEmptyFunction\", \"parameters\":\"text:String\"}"));
-		print->print(F(",{\"command\":\"testCompareFunction\", \"parameters\":\"second:String;first:String\"}"));
-		print->print(F(",{\"command\":\"testLowerCase\", \"parameters\":\"text:String \"}"));
+		print->print(F(",{\"command\":\"testCompareFunction\", \"parameters\":\"first:String;second:String\"}"));
+		print->print(F(",{\"command\":\"testLowerCaseFunction\", \"parameters\":\"text:String\"}"));
 		print->print(F(",{\"command\":\"testJoinFunction\", \"parameters\":\"first:String;second:String\"}"));
-		print->print(F(",{\"command\":\"testUppercase\", \"parameters\":\"text:String\"}"));
-		print->print(F(",{\"command\":\"testStartsAtText\", \"parameters\":\"text:String;piece:String\"}"));
+		print->print(F(",{\"command\":\"testUppercaseFunction\", \"parameters\":\"text:String\"}"));
+		print->print(F(",{\"command\":\"testReplaceFunction\", \"parameters\":\"text:String;segment:String;replacement:String\"}"));
+		print->print(F(",{\"command\":\"testSegmentTextFunction\", \"parameters\":\"text:String;start:int;len:int\"}"));
+		print->print(F(",{\"command\":\"testStartsAtTextFunction\", \"parameters\":\"text:String;piece:String\"}"));
 		print->print(F(",{\"command\":\"testTrimFunction\", \"parameters\":\"text:String\"}"));
-		print->print(F(",{\"command\":\"testContainstText\", \"parameters\":\"piece:String;text:String\"}"));
+		print->print(F(",{\"command\":\"testContainsTextFunction\", \"parameters\":\"text:String;piece:String\"}"));
+		print->print(F(",{\"command\":\"testElseIf\", \"parameters\":\"\"}"));
 		print->print(F("]"));
 	}
 	
