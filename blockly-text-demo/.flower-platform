@@ -85,18 +85,18 @@
 <attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="testCompareFunction"/>
 <attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;,UGe]CMjI[`e:cSR,o3=&quot; x=&quot;48&quot; y=&quot;66&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_string_compare&quot; id=&quot;NK-yC!TSvs-HTGa54^9J&quot;&gt;&lt;field name=&quot;OP&quot;&gt;GT&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;+x^,|lXA_unxBgch{?EX&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;first&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Ki;Cd]z?-eD!H!;ydli,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;70IeWB,nh4CxVMNE};cO&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;LYUhoY=Yj.D_s?STDsXm&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;first &amp;lt;  second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;bNvVjEnqyW3sh4{P9r,O&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_string_compare&quot; id=&quot;?qF:iD{2FGL[_,NOJ9uh&quot;&gt;&lt;field name=&quot;OP&quot;&gt;GT&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;zODD#cZA~ONd%Ctfq]/A&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;first&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;;l,qCd2xfHnc;7a+Y0c]&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;%3IIilYmtGT6MpOPf@}.&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;_6@.QqVTKlK1R[VL77*Q&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;first &amp;gt; second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;M:Kv]FE7?M398[V~;jY`&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_string_compare&quot; id=&quot;0:VLV:uM@_]^dsUQ3]Qt&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;@I8eWuCzR%K;z/Obz%gy&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;first&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;~St^m/^5mWfc[pmD235*&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;n,BZ/}ouvSj@zMQjy_}D&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;i@r77(Hkq}-H#NOjAb=*&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;first =  second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;,UGe]CMjI[`e:cSR,o3=&quot; x=&quot;48&quot; y=&quot;66&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_string_compare&quot; id=&quot;NK-yC!TSvs-HTGa54^9J&quot;&gt;&lt;field name=&quot;OP&quot;&gt;GT&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;+x^,|lXA_unxBgch{?EX&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;first&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Ki;Cd]z?-eD!H!;ydli,&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;70IeWB,nh4CxVMNE};cO&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;LYUhoY=Yj.D_s?STDsXm&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;first &amp;gt;  second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;bNvVjEnqyW3sh4{P9r,O&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_string_compare&quot; id=&quot;?qF:iD{2FGL[_,NOJ9uh&quot;&gt;&lt;field name=&quot;OP&quot;&gt;LT&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;zODD#cZA~ONd%Ctfq]/A&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;first&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;;l,qCd2xfHnc;7a+Y0c]&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;%3IIilYmtGT6MpOPf@}.&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;_6@.QqVTKlK1R[VL77*Q&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;first &amp;lt; second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;M:Kv]FE7?M398[V~;jY`&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_string_compare&quot; id=&quot;0:VLV:uM@_]^dsUQ3]Qt&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;@I8eWuCzR%K;z/Obz%gy&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;first&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;~St^m/^5mWfc[pmD235*&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;n,BZ/}ouvSj@zMQjy_}D&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;i@r77(Hkq}-H#NOjAb=*&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;first =  second&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 <attribute NAME="dataType" VALUE="String"/>
 <node TEXT="" ID="ID_457484089" CREATED="1470926573553" MODIFIED="1470926573553">
 <attribute NAME="nodeType" VALUE="parameter"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="second"/>
+<attribute NAME="name" VALUE="first"/>
 <attribute NAME="type" VALUE="parameter"/>
 </node>
 <node TEXT="" ID="ID_1284172579" CREATED="1470926551800" MODIFIED="1470926551800">
 <attribute NAME="nodeType" VALUE="parameter"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="first"/>
+<attribute NAME="name" VALUE="second"/>
 <attribute NAME="type" VALUE="parameter"/>
 </node>
 </node>
@@ -104,12 +104,12 @@
 <attribute NAME="nodeType" VALUE="function"/>
 <attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="testLowerCase"/>
+<attribute NAME="name" VALUE="testLowerCaseFunction"/>
 <attribute NAME="type" VALUE="function"/>
 <attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;xj3#|~2,u*kRCT7f-P~g&quot; x=&quot;49&quot; y=&quot;63&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_change_case&quot; id=&quot;iBc0C^?v9b:2YRV:DcXR&quot;&gt;&lt;field name=&quot;CASE&quot;&gt;LOWERCASE&lt;/field&gt;&lt;value name=&quot;TEXT&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;:|_DKYGII?eY`3b4{AP/&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 <node TEXT="" ID="ID_1084458695" CREATED="1470929268748" MODIFIED="1470929268748">
 <attribute NAME="nodeType" VALUE="parameter"/>
-<attribute NAME="dataType" VALUE="String "/>
+<attribute NAME="dataType" VALUE="String"/>
 <attribute NAME="name" VALUE="text"/>
 <attribute NAME="type" VALUE="parameter"/>
 </node>
@@ -139,7 +139,7 @@
 <attribute NAME="backgroundColor" VALUE="#f2dede"/>
 <attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="testUppercase"/>
+<attribute NAME="name" VALUE="testUppercaseFunction"/>
 <attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;9f|ysIYGJLMp@PjC5jj1&quot; x=&quot;62&quot; y=&quot;93&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_change_case&quot; id=&quot;/e7bZg?f_yL,@PF[`1+B&quot;&gt;&lt;field name=&quot;CASE&quot;&gt;UPPERCASE&lt;/field&gt;&lt;value name=&quot;TEXT&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Xoqo[2ASqX#mtc|3L(Ws&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 <attribute NAME="label" VALUE="testUppercase():String"/>
 <attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
@@ -151,13 +151,65 @@
 <attribute NAME="type" VALUE="parameter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_910256253" CREATED="1470929534834" MODIFIED="1470929534834">
+<node TEXT="" ID="ID_1716458461" CREATED="1471341517297" MODIFIED="1471341517297">
 <attribute NAME="nodeType" VALUE="function"/>
 <attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="testStartsAtText"/>
+<attribute NAME="name" VALUE="testReplaceFunction"/>
 <attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;`x{FeXFlQ(hOZy/bKhe3&quot; x=&quot;149&quot; y=&quot;117&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_starts_at_text&quot; id=&quot;W%T)pf/hi+:[v3y-Bng9&quot;&gt;&lt;value name=&quot;STR&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;m)GoP-U@]pS{#T_6hR`Q&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;SUBSTR&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;F^P]J8rnEP%y3-A9M8@I&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;piece&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;hA!VsNuwO/Dxbwt-mNd/&quot; x=&quot;76&quot; y=&quot;93&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_replace_text&quot; id=&quot;|l)(1AQlQb[TC*5s([md&quot;&gt;&lt;value name=&quot;REPLACE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;eFZD3B?7o59cQ{dYfvWi&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;SEGMENT&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;|z~IoJfe+DcIr]EoD?%R&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;segment&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;REPLACEMENT&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;hVpPc^:0k8LFtwY*2uZD&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;replacement&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_1263744396" CREATED="1471341599329" MODIFIED="1471341599329">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="text"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_114916480" CREATED="1471341583412" MODIFIED="1471341583412">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="segment"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_1772038428" CREATED="1471341652245" MODIFIED="1471341652245">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="replacement"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_453681069" CREATED="1471341371081" MODIFIED="1471341371081">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="testSegmentTextFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;!BxsAi[^:OHd-hIC0H4E&quot; x=&quot;217&quot; y=&quot;127&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_segment_text&quot; id=&quot;sk-u)2ygR3BcFb/uO`[n&quot;&gt;&lt;value name=&quot;TEXT&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Dnyx~z5@jjlR)Inp868F&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;START&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;z-fyJGpm0Uke~p3X9Qp=&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;start&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;LEN&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;ht:Z?_ZUH*AG!9,6Lc6q&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;len&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_1051451888" CREATED="1471341453797" MODIFIED="1471341453797">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="text"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_1213707660" CREATED="1471341463662" MODIFIED="1471341463662">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="start"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_1103626288" CREATED="1471341475295" MODIFIED="1471341475295">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="len"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_910256253" CREATED="1470929534834" MODIFIED="1470929534834">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testStartsAtTextFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;!BxsAi[^:OHd-hIC0H4E&quot; x=&quot;6&quot; y=&quot;140&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_starts_at_text&quot; id=&quot;:D570N^M6^P{F?to3(WF&quot;&gt;&lt;value name=&quot;STR&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Dnyx~z5@jjlR)Inp868F&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;SUBSTR&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;z-fyJGpm0Uke~p3X9Qp=&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;piece&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 <node TEXT="" ID="ID_41527302" CREATED="1470929681384" MODIFIED="1470929681384">
 <attribute NAME="nodeType" VALUE="parameter"/>
 <attribute NAME="dataType" VALUE="String"/>
@@ -190,7 +242,7 @@
 <attribute NAME="backgroundColor" VALUE="#f2dede"/>
 <attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="testContainstText"/>
+<attribute NAME="name" VALUE="testContainsTextFunction"/>
 <attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;2Pjg6o/Pj#r|hho|rBOK&quot; x=&quot;251&quot; y=&quot;163&quot;&gt;&lt;mutation else=&quot;1&quot;&gt;&lt;/mutation&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_contains_text&quot; id=&quot;QWN=yMj{tFS=H[pnJBxH&quot;&gt;&lt;value name=&quot;STR&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;y_[Eo#{x02/O%AFC/bYm&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;SUBSTR&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;lE9Fk:+SeWu;4YpHgH54&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;piece&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;-yRu{02TZYWoM0^Fz~P^&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;jmzDYg_izC-6~wBeO_GH&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;Contains&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;statement name=&quot;ELSE&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;fHqTR2wSXSWfF~Oq_b*n&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;6bOlDlg%(E86kFN*E!06&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;Does not contain!&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 <attribute NAME="label" VALUE="testIsEmptyFunction():String"/>
 <attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
@@ -198,14 +250,14 @@
 <node TEXT="" ID="ID_1213000751" CREATED="1470929942165" MODIFIED="1470929942165">
 <attribute NAME="nodeType" VALUE="parameter"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="piece"/>
+<attribute NAME="name" VALUE="text"/>
 <attribute NAME="type" VALUE="parameter"/>
 </node>
 <node TEXT="" ID="ID_1522663212" CREATED="1470929739525" MODIFIED="1470929739525">
 <attribute NAME="nodeType" VALUE="parameter"/>
 <attribute NAME="backgroundColor" VALUE="#f2dede"/>
 <attribute NAME="dataType" VALUE="String"/>
-<attribute NAME="name" VALUE="text"/>
+<attribute NAME="name" VALUE="piece"/>
 <attribute NAME="label" VALUE="text:String"/>
 <attribute NAME="textColor" VALUE="#a94442"/>
 </node>
