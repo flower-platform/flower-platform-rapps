@@ -1,0 +1,59 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_1518118847" CREATED="1472631280431" MODIFIED="1472631280431"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-cpp-arduino-ide"/>
+<attribute NAME="repositoryType" VALUE="arduino"/>
+<node TEXT="" POSITION="right" ID="ID_1302540680" CREATED="1472631282524" MODIFIED="1472631282524">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_10911145" CREATED="1472631683753" MODIFIED="1472631683753">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="name" VALUE="led"/>
+<attribute NAME="constructorArgument.initialValue" VALUE="LOW"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="13"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="false"/>
+</node>
+<node TEXT="" ID="ID_1055468746" CREATED="1472631726836" MODIFIED="1472631726836">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
+<attribute NAME="name" VALUE="timer"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="delay" VALUE="500"/>
+<attribute NAME="constructorArgument.autoStart" VALUE="true"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
+<node TEXT="" ID="ID_1111967143" CREATED="1472631861037" MODIFIED="1472631861037">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onTimer"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;AY4`%t*GQGaz}@S*ci]O&quot; x=&quot;28&quot; y=&quot;60&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;led.toggleHighLow()&lt;/field&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_481156133" CREATED="1472631282526" MODIFIED="1472631282526">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+</node>
+<node TEXT="" POSITION="right" ID="ID_761768682" CREATED="1472631282529" MODIFIED="1472631282529">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+</node>
+</node>
+</map>
