@@ -33,6 +33,8 @@
 <attribute NAME="initialValue" VALUE="0"/>
 <attribute NAME="constructorVariant" VALUE="Default"/>
 <attribute NAME="constructorArgument.pin" VALUE="3"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="false"/>
+<attribute NAME="constructorArgument.initialValue" VALUE="LOW"/>
 </node>
 <node TEXT="" ID="ID_145622757" CREATED="1469015949913" MODIFIED="1469015949913">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
@@ -42,6 +44,8 @@
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
 <attribute NAME="initialValue" VALUE="0"/>
 <attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="false"/>
+<attribute NAME="constructorArgument.initialValue" VALUE="LOW"/>
 <attribute NAME="constructorArgument.pin" VALUE="5"/>
 </node>
 <node TEXT="" ID="ID_1715846499" CREATED="1469016047965" MODIFIED="1469016047965">
@@ -53,6 +57,8 @@
 <attribute NAME="initialValue" VALUE="0"/>
 <attribute NAME="constructorVariant" VALUE="Default"/>
 <attribute NAME="constructorArgument.pin" VALUE="6"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="false"/>
+<attribute NAME="constructorArgument.initialValue" VALUE="LOW"/>
 </node>
 <node TEXT="" ID="ID_308859792" CREATED="1469016077249" MODIFIED="1469016077249">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Output"/>
@@ -63,6 +69,8 @@
 <attribute NAME="initialValue" VALUE="0"/>
 <attribute NAME="constructorVariant" VALUE="Default"/>
 <attribute NAME="constructorArgument.pin" VALUE="9"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="false"/>
+<attribute NAME="constructorArgument.initialValue" VALUE="LOW"/>
 </node>
 <node TEXT="" ID="ID_1346254471" CREATED="1469018804964" MODIFIED="1469018804964">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer"/>
