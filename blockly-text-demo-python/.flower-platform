@@ -25,10 +25,11 @@
 <attribute NAME="repositoryType" VALUE="raspberry-pi"/>
 <node TEXT="" POSITION="right" ID="ID_1055953077" CREATED="1471346887757" MODIFIED="1471346887757">
 <attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_791628559" CREATED="1471347140192" MODIFIED="1471347140192">
+<node TEXT="" ID="ID_1576448770" CREATED="1472633376007" MODIFIED="1472633376007">
 <attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__HttpServer"/>
-<attribute NAME="port" VALUE="80"/>
-<attribute NAME="name" VALUE="httpServer"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="httpServer1"/>
+<attribute NAME="constructorArgument.port" VALUE="8080"/>
 <attribute NAME="type" VALUE="dynamic_platform-python-linux__HttpServer"/>
 </node>
 </node>

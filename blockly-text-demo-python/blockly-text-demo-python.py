@@ -12,64 +12,64 @@ from FlowerPlatformRuntime.HttpServer import HttpServer
 class AppGen :
 
 	def testLengthFunction(self, text) :
-		return len(text);
+		return len(text)
 
 
 	def testIsEmptyFunction(self, text) :
 		if ( len(text) == 0 ):
-			return "Empty";
+			return "Empty"
 		else:
-			return "Not empty";
+			return "Not empty"
 		
 
 
 	def testCompareFunction(self, first, second) :
 		if ( (first > second) ):
-			return "first >  second";
+			return "first >  second"
 		elif ( (first < second) ):
-			return "first < second";
+			return "first < second"
 		else:
-			return "first =  second";
+			return "first =  second"
 		
 
 
 	def testLowerCaseFunction(self, text) :
-		return text.lower();
+		return text.lower()
 
 
 	def testJoinFunction(self, first, second) :
-		return (first + second);
+		return (first + second)
 
 
 	def testUppercaseFunction(self, text) :
-		return text.upper();
+		return text.upper()
 
 
 	def testReplaceFunction(self, text, segment, replacement) :
-		return text.replace(segment, replacement);
+		return text.replace(segment, replacement)
 
 
 	def testSegmentTextFunction(self, text, start, len) :
-		return text[start - 1 : start + len - 1];
+		return text[start - 1 : start + len - 1]
 
 
 	def testStartsAtTextFunction(self, text, piece) :
-		return text.find(piece);
+		return text.find(piece)
 
 
 	def testTrimFunction(self, text) :
-		return text.strip();
+		return text.strip()
 
 
 	def testContainsTextFunction(self, text, piece) :
 		if ( text.find(piece) != -1 ):
-			return "Contains";
+			return "Contains"
 		else:
-			return "Does not contain!";
+			return "Does not contain!"
 		
 
 
-	def httpServer_onCommandReceived(self, event) :
+	def httpServer1_onCommandReceived(self, event) :
 		urlFound = False
 		returnValueJson = None
 		
@@ -99,7 +99,7 @@ class AppGen :
 		elif (event.url == "testLengthFunction") :
 			urlFound = True
 			text = event.parameters.get("text")[0]
-			returnValueJson = '' + self.testLengthFunction(text)
+			returnValueJson = str(self.testLengthFunction(text))
 		elif (event.url == "testIsEmptyFunction") :
 			urlFound = True
 			text = event.parameters.get("text")[0]
@@ -138,7 +138,7 @@ class AppGen :
 			urlFound = True
 			text = event.parameters.get("text")[0]
 			piece = event.parameters.get("piece")[0]
-			returnValueJson = '' + self.testStartsAtTextFunction(text, piece)
+			returnValueJson = str(self.testStartsAtTextFunction(text, piece))
 		elif (event.url == "testTrimFunction") :
 			urlFound = True
 			text = event.parameters.get("text")[0]
@@ -190,22 +190,21 @@ class AppGen :
 		signal.signal(signal.SIGTERM, self.stop)
 		signal.signal(signal.SIGINT, self.stop)
 		
-		self.httpServer = HttpServer()
-		self.httpServer.port = 80
-		self.httpServer.onCommandReceived = self.httpServer_onCommandReceived
+		self.httpServer1 = HttpServer(8080)
+		self.httpServer1.onCommandReceived = self.httpServer1_onCommandReceived
 
-		self.httpServer.setup()
+		self.httpServer1.setup()
 
 	def start(self) :
 		self.running = True
 		while self.running :
-			self.httpServer.loop()
+			self.httpServer1.loop()
 			time.sleep(0.01)
 		GPIO.cleanup()
 		sys.exit(0)
 
 	def stop(self, signal, frame) :
-		self.httpServer.stop()
+		self.httpServer1.stop()
 		self.running = False
 
 
