@@ -1,0 +1,99 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_1018249726" CREATED="1470989631531" MODIFIED="1470989631531"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-python-linux"/>
+<attribute NAME="repositoryType" VALUE="raspberry-pi"/>
+<node TEXT="" POSITION="right" ID="ID_989874848" CREATED="1470989631549" MODIFIED="1470989631549">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_597421388" CREATED="1470990313809" MODIFIED="1470990313809">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__HttpServer"/>
+<attribute NAME="port" VALUE="8080"/>
+<attribute NAME="name" VALUE="httpServer"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__HttpServer"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.port" VALUE="8081"/>
+</node>
+<node TEXT="" ID="ID_214223743" CREATED="1472634776031" MODIFIED="1472634776031">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Input"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="False"/>
+<attribute NAME="name" VALUE="pushButton"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="6"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Input"/>
+<node TEXT="" ID="ID_1543684683" CREATED="1472634825361" MODIFIED="1472634825361">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;*f0=TXa?Efi5HWxS#K:h&quot; x=&quot;15&quot; y=&quot;4&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;r4_xTZ@W6Fm[i9Mx8)Wc&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;O[*[1KygnoQB%SOXIL,:&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event.currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;OO=,xwGM2)6*6|RKEqR6&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;GPIO.LOW&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;uP,W`%X[nb;HCX,#2@@(&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.led1.toggleHighLow()&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_379844463" CREATED="1472634950363" MODIFIED="1472634950363">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Output"/>
+<attribute NAME="name" VALUE="led1"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="26"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Output"/>
+<attribute NAME="contributesToState" VALUE="True"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="False"/>
+</node>
+<node TEXT="" ID="ID_1209966733" CREATED="1472635147566" MODIFIED="1472635147566">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Output"/>
+<attribute NAME="name" VALUE="led2"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="19"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Output"/>
+<attribute NAME="contributesToState" VALUE="True"/>
+<attribute NAME="constructorArgument.isPwm" VALUE="True"/>
+</node>
+<node TEXT="" ID="ID_1609653320" CREATED="1472635379909" MODIFIED="1472635379909">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Input"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="True"/>
+<attribute NAME="name" VALUE="internalPullUpButton"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.pin" VALUE="13"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Input"/>
+<attribute NAME="contributesToState" VALUE="True"/>
+<node TEXT="" ID="ID_1238233140" CREATED="1472635399537" MODIFIED="1472635399537">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;xtSIcmr|7G,|NE:+,7pa&quot; x=&quot;41&quot; y=&quot;7&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;a`3R:9k[KEL5:fkcwAY}&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;2UZX4:Sn?@Z%;+/~7GYR&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event.currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;r8O]/c6d5nMtOv|*Q52#&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;GPIO.LOW&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_controls_for&quot; id=&quot;0bDg5fPT-sZ]nwzAJXX3&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;i&lt;/field&gt;&lt;value name=&quot;FROM&quot;&gt;&lt;shadow type=&quot;fp_math_number&quot; id=&quot;m571FvUH)aF=Eyo?!hBG&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;1&lt;/field&gt;&lt;/shadow&gt;&lt;/value&gt;&lt;value name=&quot;TO&quot;&gt;&lt;shadow type=&quot;fp_math_number&quot; id=&quot;tf,B]+oc)@Ab{TWq/s/E&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;100&lt;/field&gt;&lt;/shadow&gt;&lt;/value&gt;&lt;value name=&quot;BY&quot;&gt;&lt;shadow type=&quot;fp_math_number&quot; id=&quot;=|;u^zr0w(BnD[b1xqDU&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;1&lt;/field&gt;&lt;/shadow&gt;&lt;/value&gt;&lt;statement name=&quot;DO&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;8uGQ-?khud~u|u~r.NzW&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.led2.setValue(i)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;-|~?u|h_P]IdO:nDw/gF&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;time.sleep(0.02)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1768117583" CREATED="1470989631550" MODIFIED="1470989631550">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1004609840" CREATED="1470989631551" MODIFIED="1470989631551">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+<node TEXT="" ID="ID_1358894532" CREATED="1470990221809" MODIFIED="1470990221809">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="test"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;ASYcinQx4Q=o_y57Rg{I&quot; x=&quot;65&quot; y=&quot;84&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;return &quot;test&quot;&lt;/field&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+</node>
+</map>
