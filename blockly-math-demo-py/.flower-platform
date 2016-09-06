@@ -1,0 +1,778 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_1130660322" CREATED="1472824201130" MODIFIED="1472824201130"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-python-linux"/>
+<attribute NAME="repositoryType" VALUE="raspberry-pi"/>
+<node TEXT="" POSITION="right" ID="ID_583531316" CREATED="1472824201147" MODIFIED="1472824201147">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_852907086" CREATED="1472824913087" MODIFIED="1472824913087">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__HttpServer"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="httpServer"/>
+<attribute NAME="constructorArgument.port" VALUE="8080"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__HttpServer"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_764409686" CREATED="1472824201147" MODIFIED="1472824201147">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1266260290" CREATED="1472824201147" MODIFIED="1472824201147">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+<node TEXT="" ID="ID_260890391" CREATED="1472805251205" MODIFIED="1472805251205">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testAddFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;~yPlz3}WH-)N~#eRB[R6&quot; x=&quot;46&quot; y=&quot;56&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_add&quot; id=&quot;,T88nA3wIN{o{@9aV2?:&quot;&gt;&lt;mutation items=&quot;3&quot;&gt;&lt;/mutation&gt;&lt;value name=&quot;NUM0&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;s9;o(U/T@fF_AGG^8z){&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM1&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;e#U(eCQB}yyaOu]JFZgn&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM2&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;!X]hc(k,g1L#*I@dZ9M@&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num2&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_1761176757" CREATED="1472805299570" MODIFIED="1472805299570">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_812447760" CREATED="1472805312737" MODIFIED="1472805312737">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1920771591" CREATED="1472805314387" MODIFIED="1472805314387">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num2"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_47571985" CREATED="1472805334787" MODIFIED="1472805334787">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testSubstractFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;~yPlz3}WH-)N~#eRB[R6&quot; x=&quot;46&quot; y=&quot;56&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_subtract&quot; id=&quot;]A1xOdD_QY+~z!l0w{~[&quot;&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;s9;o(U/T@fF_AGG^8z){&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;e#U(eCQB}yyaOu]JFZgn&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testAddFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1893693063" CREATED="1472805334788" MODIFIED="1472805334788">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1702995808" CREATED="1472805334788" MODIFIED="1472805334788">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="label" VALUE="num1:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_305055151" CREATED="1472805472239" MODIFIED="1472805472239">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testMultiplyFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;~yPlz3}WH-)N~#eRB[R6&quot; x=&quot;46&quot; y=&quot;56&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_multiply&quot; id=&quot;:WojS}]D1DCY*)RhKb9B&quot;&gt;&lt;mutation items=&quot;3&quot;&gt;&lt;/mutation&gt;&lt;value name=&quot;NUM0&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;s9;o(U/T@fF_AGG^8z){&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM1&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;e#U(eCQB}yyaOu]JFZgn&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM2&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;7H5WTUAz#icCagSbZnJ7&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num2&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testAddFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1572985092" CREATED="1472805472240" MODIFIED="1472805472240">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1836608181" CREATED="1472805472240" MODIFIED="1472805472240">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="label" VALUE="num1:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1571523544" CREATED="1472805754051" MODIFIED="1472805754051">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num2"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1792836796" CREATED="1472805593205" MODIFIED="1472805593205">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testDivisionFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;~yPlz3}WH-)N~#eRB[R6&quot; x=&quot;46&quot; y=&quot;56&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_division&quot; id=&quot;tkYYk:_qc@WA2,Le.YcT&quot;&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;s9;o(U/T@fF_AGG^8z){&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;e#U(eCQB}yyaOu]JFZgn&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testSubstractFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_443972684" CREATED="1472805593205" MODIFIED="1472805593205">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_438261684" CREATED="1472805593206" MODIFIED="1472805593206">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="label" VALUE="num1:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1512952106" CREATED="1472805778619" MODIFIED="1472805778619">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testPowFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;~yPlz3}WH-)N~#eRB[R6&quot; x=&quot;46&quot; y=&quot;56&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_pow&quot; id=&quot;?-VPuES#0E;=mm[,GwR(&quot;&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;s9;o(U/T@fF_AGG^8z){&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;e#U(eCQB}yyaOu]JFZgn&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testDivisionFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_732237235" CREATED="1472805778620" MODIFIED="1472805778620">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1722766806" CREATED="1472805778620" MODIFIED="1472805778620">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="label" VALUE="num1:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_355012758" CREATED="1472807706788" MODIFIED="1472807706788">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="testComparisonFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;d*,h68t9C3tcCNz8n*Gc&quot; x=&quot;15&quot; y=&quot;37&quot;&gt;&lt;mutation elseif=&quot;1&quot; else=&quot;1&quot;&gt;&lt;/mutation&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;,Us~0}?N|5;sp[^R~uIB&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;3fC3_[q?F+l/#1M^hdG#&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;}XXl(].oe^rDcd,@Q!eY&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;fPrh/q,]v@8bDxR;w`eI&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;8[t|hq1xi//c:~-Wx+_@&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;num0 = num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;value name=&quot;IF1&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;dp@?`Lk.W8g`{hf(C]TI&quot;&gt;&lt;field name=&quot;OP&quot;&gt;LT&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;eW~}]T}lHoE:=Z4LID^f&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;nItu^{?.v%*?V#EJ.8-7&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO1&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;Z`MFM;L?}b%rgbM}k#4i&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;J~8Zj-zlAVp1e:-hTzh5&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;num0 &amp;lt; num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;statement name=&quot;ELSE&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;BOu{oQ8s11:d:,w^h8;t&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_text&quot; id=&quot;*SyWM2^{@?DJ#CQznx*n&quot;&gt;&lt;field name=&quot;TEXT&quot;&gt;num0 &amp;gt; num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_1129178801" CREATED="1472807732369" MODIFIED="1472807732369">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_649261423" CREATED="1472807739204" MODIFIED="1472807739204">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_874424019" CREATED="1472807878071" MODIFIED="1472807878071">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testRandomIntegerFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;50&quot; y=&quot;19&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_random_integer_from_to&quot; id=&quot;yRp/,zOV8g8;S+mGe|@0&quot;&gt;&lt;value name=&quot;FROM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;EkL3[M;)a3JRAe/X|fdf&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;start&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;TO&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;!/re~Mi{S7-X{;P,a}`=&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;end&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_1383863065" CREATED="1472807894953" MODIFIED="1472807894953">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="start"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_893013703" CREATED="1472807951372" MODIFIED="1472807951372">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="end"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1785359135" CREATED="1472808688286" MODIFIED="1472808688286">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testMinFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_min_max&quot; id=&quot;WQZ)_o9:o/13L!6{JFIu&quot;&gt;&lt;mutation items=&quot;3&quot;&gt;&lt;/mutation&gt;&lt;field name=&quot;MIN_MAX&quot;&gt;MIN&lt;/field&gt;&lt;value name=&quot;NUM0&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;vS4mc/#.8L%j0H3-K5;5&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM1&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;jha{K}{Hde_IMV8F?j)L&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM2&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;xF?;I2Szy]hF*h9-wBp[&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num2&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_571482185" CREATED="1472808720420" MODIFIED="1472808720420">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_664009638" CREATED="1472808724064" MODIFIED="1472808724064">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="label" VALUE="num1:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1840717576" CREATED="1472808762670" MODIFIED="1472808762670">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num2"/>
+<attribute NAME="label" VALUE="num1:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1460887637" CREATED="1472808005237" MODIFIED="1472808005237">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testRandomFractionFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_random_fraction&quot; id=&quot;p_0eSO1,b7H6`?APrwl^&quot;&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testRandomIntegerFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_138579609" CREATED="1472812068290" MODIFIED="1472812068290">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testSquareRootFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;ROOT&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_343557613" CREATED="1472812104119" MODIFIED="1472812104119">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1899652353" CREATED="1472809037406" MODIFIED="1472809037406">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testMaxFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_min_max&quot; id=&quot;WQZ)_o9:o/13L!6{JFIu&quot;&gt;&lt;mutation items=&quot;3&quot;&gt;&lt;/mutation&gt;&lt;field name=&quot;MIN_MAX&quot;&gt;MAX&lt;/field&gt;&lt;value name=&quot;NUM0&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;vS4mc/#.8L%j0H3-K5;5&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM1&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;jha{K}{Hde_IMV8F?j)L&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM2&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;xF?;I2Szy]hF*h9-wBp[&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;num2&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testMin():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1658725159" CREATED="1472809037407" MODIFIED="1472809037407">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num0"/>
+<attribute NAME="label" VALUE="num0:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1151832581" CREATED="1472809037407" MODIFIED="1472809037407">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num1"/>
+<attribute NAME="label" VALUE="num1:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_104700754" CREATED="1472809037408" MODIFIED="1472809037408">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="num2"/>
+<attribute NAME="label" VALUE="num2:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_295739461" CREATED="1472812147319" MODIFIED="1472812147319">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testNegFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;NEG&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testSquareRoot():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_983409944" CREATED="1472812147320" MODIFIED="1472812147320">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_783331892" CREATED="1472812149986" MODIFIED="1472812149986">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testAbsoluteFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;ABS&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testSquareRoot():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_744723954" CREATED="1472812149987" MODIFIED="1472812149987">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_248034986" CREATED="1472812153084" MODIFIED="1472812153084">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testLogFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;LN&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testSquareRoot():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_478405191" CREATED="1472812153085" MODIFIED="1472812153085">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_828856091" CREATED="1472812155321" MODIFIED="1472812155321">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testExpFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;EXP&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testSquareRoot():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_315496727" CREATED="1472812155321" MODIFIED="1472812155321">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1391192729" CREATED="1472812157120" MODIFIED="1472812157120">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testRoundFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;ROUND&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testSquareRoot():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1268693303" CREATED="1472812157120" MODIFIED="1472812157120">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1027375652" CREATED="1472812335711" MODIFIED="1472812335711">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testCeilingFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;CEILING&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testRoundFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1948519877" CREATED="1472812335711" MODIFIED="1472812335711">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_958713037" CREATED="1472812337591" MODIFIED="1472812337591">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testSinFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_trig&quot; id=&quot;,o60mBI.;k~Dk`=W%@T}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;SIN&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testRoundFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_555562173" CREATED="1472812337592" MODIFIED="1472812337592">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1674677812" CREATED="1472812908322" MODIFIED="1472812908322">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testCosFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;h?s~m^Ooiv.3HYqTNxX4&quot; x=&quot;12&quot; y=&quot;158&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_trig&quot; id=&quot;H^uGTaTG_fD3CP{LGda5&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;COS&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testFloorFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1500721804" CREATED="1472812908322" MODIFIED="1472812908322">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_456758644" CREATED="1472812910954" MODIFIED="1472812910954">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testTanFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_trig&quot; id=&quot;Z{IloAPd`:~u_QWfhV[/&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;TAN&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testFloorFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_958613073" CREATED="1472812910954" MODIFIED="1472812910954">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1786559826" CREATED="1472812912870" MODIFIED="1472812912870">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testAsinFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_trig&quot; id=&quot;y+4hp*.!5Q_-X`P}F!K%&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;ASIN&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testFloorFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_859345803" CREATED="1472812912871" MODIFIED="1472812912871">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_991233843" CREATED="1472812914821" MODIFIED="1472812914821">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testAcosFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_trig&quot; id=&quot;j*#o:-CG(I^%U5FUDttJ&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;ACOS&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testFloorFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_227628459" CREATED="1472812914821" MODIFIED="1472812914821">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1089360146" CREATED="1472813222488" MODIFIED="1472813222488">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testFloorFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_single&quot; id=&quot;?XQH:cEs1z4Bf+(fGV5}&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;FLOOR&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testCeilingFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_900905211" CREATED="1472813222489" MODIFIED="1472813222489">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_579964632" CREATED="1472813337072" MODIFIED="1472813337072">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testAtanFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_trig&quot; id=&quot;j*#o:-CG(I^%U5FUDttJ&quot;&gt;&lt;field name=&quot;FUNC&quot;&gt;ATAN&lt;/field&gt;&lt;value name=&quot;NUM&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P%I*L5mUBm}_r3aDCAb?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testAcosFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1002709896" CREATED="1472813337073" MODIFIED="1472813337073">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_30147257" CREATED="1472815212620" MODIFIED="1472815212620">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testConvertRadiansToDegreesFunction"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_rad_deg&quot; id=&quot;H9+laL?!pX9p?*Z?X/ol&quot;&gt;&lt;field name=&quot;CH&quot;&gt;R2D&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;mKo};h1aEgZ2Qpv~.S?m&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;radians_number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="dataType" VALUE="double"/>
+<node TEXT="" ID="ID_1560555224" CREATED="1472815235286" MODIFIED="1472815235286">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="radians_number"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_258129948" CREATED="1472813424905" MODIFIED="1472813424905">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="testAtan2Function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_atan2&quot; id=&quot;Y3zd@[0H./`,p97eagy{&quot;&gt;&lt;value name=&quot;VALUE1&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;P1o._C!N6?`huswh(z/U&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;VALUE2&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;NcYqpcw~[uX2.%hIzBt]&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testAtanFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_306629786" CREATED="1472813424906" MODIFIED="1472813424906">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number1"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1868180713" CREATED="1472813439603" MODIFIED="1472813439603">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number0"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_979193944" CREATED="1472815411320" MODIFIED="1472815411320">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="testFormatDecimalNumberFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_set_precision&quot; id=&quot;.gGSM(x|:{P^[d~.7QX^&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;o@0hg.b?G?dIv,YFBzJz&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;PREC&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;rckEf}X%=R_0j6Q/oI]w&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;places&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testComvertDegreesToRadians():double"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1665882995" CREATED="1472815467987" MODIFIED="1472815467987">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="places"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+<node TEXT="" ID="ID_191006901" CREATED="1472815411321" MODIFIED="1472815411321">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="degrees:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1502061590" CREATED="1472815572772" MODIFIED="1472815572772">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testRemainderFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_mod_div&quot; id=&quot;U5q:2*703s[Xrndu3XTV&quot;&gt;&lt;field name=&quot;CH&quot;&gt;MOD&lt;/field&gt;&lt;value name=&quot;NUM1&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;f+[Cf9KIsf.)hEO!LQ`d&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;dividend&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM2&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;L(b70e,wfszpryYp|MS7&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;divisor&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testFormatDecimalNumberFunction():double"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1131045908" CREATED="1472815572772" MODIFIED="1472815572772">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="dividend"/>
+<attribute NAME="label" VALUE="number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_366418352" CREATED="1472815759655" MODIFIED="1472815759655">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="divisor"/>
+<attribute NAME="label" VALUE="dividend:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_655915094" CREATED="1472818002462" MODIFIED="1472818002462">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="testConvertDegreesToRadiansFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_rad_deg&quot; id=&quot;H9+laL?!pX9p?*Z?X/ol&quot;&gt;&lt;field name=&quot;CH&quot;&gt;D2R&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;mKo};h1aEgZ2Qpv~.S?m&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;degrees_number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testComvertRadiansToDegreesFunction():double"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_474240941" CREATED="1472818002468" MODIFIED="1472818002468">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="double"/>
+<attribute NAME="name" VALUE="degrees_number"/>
+<attribute NAME="label" VALUE="radians_number:double"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_705818382" CREATED="1472818057154" MODIFIED="1472818057154">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testQuotientFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_mod_div&quot; id=&quot;U5q:2*703s[Xrndu3XTV&quot;&gt;&lt;field name=&quot;CH&quot;&gt;DIV&lt;/field&gt;&lt;value name=&quot;NUM1&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;f+[Cf9KIsf.)hEO!LQ`d&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;dividend&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM2&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;L(b70e,wfszpryYp|MS7&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;divisor&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testRemainderFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1344667103" CREATED="1472818057154" MODIFIED="1472818057154">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="dividend"/>
+<attribute NAME="label" VALUE="dividend:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+<node TEXT="" ID="ID_1841566365" CREATED="1472818057155" MODIFIED="1472818057155">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="divisor"/>
+<attribute NAME="label" VALUE="divisor:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_955614261" CREATED="1472818128821" MODIFIED="1472818128821">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testConvertHexToBase10Function"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;#;X(aeAkT?fq*T!H1i*K&quot; x=&quot;36&quot; y=&quot;63&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_tobase10_conv&quot; id=&quot;te4,3|1R0V_ka/0YN0S~&quot;&gt;&lt;field name=&quot;CH&quot;&gt;ht10&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;OccsgCUalC/:H.Jx%?VZ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;hexadecimalNumber&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_429855778" CREATED="1472818167156" MODIFIED="1472818167156">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="hexadecimalNumber"/>
+<attribute NAME="type" VALUE="parameter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_573150763" CREATED="1472818217440" MODIFIED="1472818217440">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="testConvertBinaryToBase10Function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;#;X(aeAkT?fq*T!H1i*K&quot; x=&quot;-5&quot; y=&quot;52&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_tobase10_conv&quot; id=&quot;te4,3|1R0V_ka/0YN0S~&quot;&gt;&lt;field name=&quot;CH&quot;&gt;bt10&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;OccsgCUalC/:H.Jx%?VZ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;binaryNumber&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testConvertHexToBase10():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1222686575" CREATED="1472818217441" MODIFIED="1472818217441">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="binaryNumber"/>
+<attribute NAME="label" VALUE="hexadecimalNumber:String"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_778290809" CREATED="1472818298106" MODIFIED="1472818298106">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="testConvertBase10ToHexFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;#;X(aeAkT?fq*T!H1i*K&quot; x=&quot;-5&quot; y=&quot;52&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_frombase10_conv&quot; id=&quot;/uDpAFE/Lr?64F+Zd8.A&quot;&gt;&lt;field name=&quot;CH&quot;&gt;10th&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;OccsgCUalC/:H.Jx%?VZ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testConvertHexToBinaryFunction():int"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_606073012" CREATED="1472818298107" MODIFIED="1472818298107">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="binaryNumber:String"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1099338819" CREATED="1472818376404" MODIFIED="1472818376404">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="dataType" VALUE="String"/>
+<attribute NAME="name" VALUE="testConvertBase10ToBinaryFunction"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;#;X(aeAkT?fq*T!H1i*K&quot; x=&quot;-5&quot; y=&quot;52&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_frombase10_conv&quot; id=&quot;Pir.?3wanWf5#L}eg/;?&quot;&gt;&lt;field name=&quot;CH&quot;&gt;10tb&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;OccsgCUalC/:H.Jx%?VZ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="testConvertBase10ToHexFunction():String"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png,servlet/public-resources/org.flowerplatform.resources/images/core/url_icon.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+<node TEXT="" ID="ID_1205317249" CREATED="1472818376404" MODIFIED="1472818376404">
+<attribute NAME="nodeType" VALUE="parameter"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="number"/>
+<attribute NAME="label" VALUE="number:int"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+</node>
+</node>
+</map>
