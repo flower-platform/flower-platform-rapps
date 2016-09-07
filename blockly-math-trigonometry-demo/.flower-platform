@@ -191,9 +191,9 @@
 <node TEXT="" ID="ID_30147257" CREATED="1472815212620" MODIFIED="1472815212620">
 <attribute NAME="nodeType" VALUE="function"/>
 <attribute NAME="accessibleViaWeb" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="radiansToDegreesTest"/>
+<attribute NAME="name" VALUE="testConverRadiansToDegreesFunction"/>
 <attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;56&quot; y=&quot;54&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_rad_deg&quot; id=&quot;H9+laL?!pX9p?*Z?X/ol&quot;&gt;&lt;field name=&quot;CH&quot;&gt;R2D&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;mKo};h1aEgZ2Qpv~.S?m&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;radians_number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_return&quot; id=&quot;ova]2oYDKiiz{[UtoD[%&quot; x=&quot;50&quot; y=&quot;123&quot;&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_rad_deg&quot; id=&quot;H9+laL?!pX9p?*Z?X/ol&quot;&gt;&lt;field name=&quot;CH&quot;&gt;R2D&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;mKo};h1aEgZ2Qpv~.S?m&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;radians_number&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 <attribute NAME="dataType" VALUE="double"/>
 <node TEXT="" ID="ID_1560555224" CREATED="1472815235286" MODIFIED="1472815235286">
 <attribute NAME="nodeType" VALUE="parameter"/>
