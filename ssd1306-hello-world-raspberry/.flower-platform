@@ -1,0 +1,77 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_413758873" CREATED="1474359881313" MODIFIED="1474359881313"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-python-linux"/>
+<attribute NAME="repositoryType" VALUE="raspberry-pi"/>
+<node TEXT="" POSITION="right" ID="ID_76983689" CREATED="1474359881882" MODIFIED="1474359881882">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_59193332" CREATED="1474361324850" MODIFIED="1474361324850">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Adafruit_SSD1306_Component"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="display"/>
+<attribute NAME="constructorArgument.rst" VALUE="24"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Adafruit_SSD1306_Component"/>
+</node>
+<node TEXT="" ID="ID_605473833" CREATED="1474361908415" MODIFIED="1474361908415">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Input"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="button"/>
+<attribute NAME="constructorArgument.pin" VALUE="18"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="True"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Input"/>
+<node TEXT="" ID="ID_926463057" CREATED="1474362093949" MODIFIED="1474362093949">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;H/RrK#aOwIKt(iZPl9%J&quot; x=&quot;82&quot; y=&quot;45&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;x#mUb~n7Nt{^HG1(b4~^&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;dPYBgIfmFLDB+,56,mSZ&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.nr_pressed&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;._M)Su+:-KIx6.@PR^P_&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;None&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;BvFTJ_N[%VKtJl^*-.:d&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.nr_pressed&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;i=l~L5ka.q7=FbO/w/=q&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;xtU)[|4gTS{}de_gT;/A&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_logic_compare&quot; id=&quot;*,xg?tJP*sMrA/}#{616&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;m^p(wpOx(G@RMnCgG=vh&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event.currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;ZPDxM),@dRam3^}.Pinu&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;GPIO.LOW&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;dw57#b4Fg;G.tZBvm{Ec&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.nr_pressed&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_add&quot; id=&quot;MG}AB8y6qd*{87w-Lgn1&quot;&gt;&lt;mutation items=&quot;2&quot;&gt;&lt;/mutation&gt;&lt;value name=&quot;NUM0&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Pkk8][}:l0@3cVbP=i%l&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.nr_pressed&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;NUM1&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;riT[OVCM=U![kLb*H5bX&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;1&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;14qjU}BLO==fQ-=)!rZG&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;_2~gF[Jc*lwM{gjb7U;Y&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;&quot;Number pressed: &quot; + `self.nr_pressed`&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;-#X7UXjcc2j1(|0zZ/C0&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.display.clearTextFromPosition(0, 0, text)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;mV9.sxAS!PMpi`QX+Xrl&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.display.printText(0, 0, text)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;zpQfWIu-TaqQ|EDVvt/r&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.display.displayChanges()&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/statement&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1866647477" CREATED="1474375297064" MODIFIED="1474375297064">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Input"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="button2"/>
+<attribute NAME="constructorArgument.pin" VALUE="17"/>
+<attribute NAME="constructorArgument.internalPullUp" VALUE="True"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Input"/>
+<node TEXT="" ID="ID_148261714" CREATED="1474375311464" MODIFIED="1474375311464">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;Gnr6CS,W.RrCn6d{T./)&quot; x=&quot;76&quot; y=&quot;72&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;eVPB!rQ07qGRYU*p8J`4&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;ZzKu:R2m^uPbwZ.J}sai&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;hasattr(self, &quot;prevText&quot;)&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_logic_boolean_true&quot; id=&quot;ktsmgJm9cdD;eD=r1D|w&quot;&gt;&lt;field name=&quot;BOOL&quot;&gt;TRUE&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;X44vMi-3{cl_~TSS=hQx&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.display.clearTextFromPosition(0, 20, self.prevText)&lt;/field&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;tv9L|h(w)P5Ehv3c)GqX&quot;&gt;&lt;mutation else=&quot;1&quot;&gt;&lt;/mutation&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;eT(oZk+9@Wb(~mO+qKZ%&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;n7Nq!.49~3d3yUBrTn7?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event.currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;x?i,(p9J5I0D;ll:#CW{&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;GPIO.LOW&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;~c-Ao1jUeOeW~z:YNzrh&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;4s]X/Q)7.DSyWY5=KVE]&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;&quot;Button 2 pushed&quot;&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;statement name=&quot;ELSE&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;.aSOQ;OhL8vT|I_aQK5^&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;at76[(VaL}%/@C7TWng:&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;&quot;Button 2 released&quot;&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;W[COPE)s]n=T|kDfa4:~&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.display.clearTextFromPosition(0, 20, text)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;M4.S1_rEHy70r(wyU*jl&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.display.printText(0, 20, text)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;4UdAo#+^La9#([kqq}I@&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.display.displayChanges()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;wFAD[1Icl%r-5t8DDH~%&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.prevText&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;GSOWvtdI,Z_c.YpV{EgO&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;text&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1264944534" CREATED="1474359881883" MODIFIED="1474359881883">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+<node TEXT="" ID="ID_1537371025" CREATED="1474361928582" MODIFIED="1474361928582">
+<attribute NAME="nodeType" VALUE="variable"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="nr_pressed"/>
+<attribute NAME="type" VALUE="variable"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_289199721" CREATED="1474359881885" MODIFIED="1474359881885">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+</node>
+</node>
+</map>

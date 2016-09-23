@@ -1,0 +1,95 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_1547295286" CREATED="1474025926816" MODIFIED="1474025926816"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-cpp-arduino-ide"/>
+<attribute NAME="repositoryType" VALUE="esp8266"/>
+<node TEXT="" POSITION="right" ID="ID_920927264" CREATED="1474025926839" MODIFIED="1474025926839">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_1898127126" CREATED="1474026564109" MODIFIED="1474026564109">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<attribute NAME="pin" VALUE="0"/>
+<attribute NAME="name" VALUE="button1"/>
+<attribute NAME="internalPullUp" VALUE="true"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Input"/>
+<node TEXT="" ID="ID_814747940" CREATED="1474026850226" MODIFIED="1474026850226">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;=ggU2SO42t4RbnOx5zn1&quot; x=&quot;92&quot; y=&quot;67&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.clearDisplay()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;}cQR.8H5mKlwfw;jZToT&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setCursor(0,0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;b8,yQQ6;)S{V4[IsPnE~&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_logic_compare&quot; id=&quot;G3tw/u*`zFqjZl|ri6fo&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;4y^j-9]LYk@AWLn`7VF=&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;event-&amp;gt;currentValue&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;K81+F~5),o%mMONsdcaD&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;HIGH&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_controls_if&quot; id=&quot;fiSZ]1;8zT8AyyVfF:b(&quot;&gt;&lt;value name=&quot;IF0&quot;&gt;&lt;block type=&quot;fp_math_compare&quot; id=&quot;`5li=?xcxF18`+3}hey5&quot;&gt;&lt;field name=&quot;OP&quot;&gt;EQ&lt;/field&gt;&lt;value name=&quot;A&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;x4g~K.p}KJ}~ua@O7~W.&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;nr_pressed&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;value name=&quot;B&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;aSEYz/MzC0KL!MTzO3O~&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/value&gt;&lt;statement name=&quot;DO0&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;Bou~]id7U5HAR7OzRV5A&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.clearDisplay()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;F158/bY^~^}A0o3=yqd!&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;sprintf(text,&quot;Button pressed. Let the count begin&quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;v;nV~f+1lDCk=tsoqrI8&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setTextSize(2)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lYH){IgS`.xrZ*[.7:}t&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.println(text);&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;*p08usUdV~)~|f^Ks%4p&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.display()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lW4xW9P|9kjKtkz9]4c[&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;delay(2000)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;O[A2#7uLaxn7B@j-Lt7_&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setCursor(0,0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;F[T-?`L{qe{F`pEKqf:5&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setTextSize(2)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;qH.)oi*O,6KNa6ma?gM~&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.clearDisplay()&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;3#d:Re#7#Gscg|pEDnV6&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;sprintf(text,&quot;Number pressed: %d&quot;, ++nr_pressed)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/statement&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;QU*0-VVQP]dMqpL8e,lF&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.println(text);&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;*!`^Jxyp*({-oN/u-wA?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.display()&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_1460139945" CREATED="1474035802411" MODIFIED="1474035802411">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="backgroundColor" VALUE="#fcf8e3"/>
+<attribute NAME="name" VALUE="onValueChanged"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;Bou~]id7U5HAR7OzRV5A&quot; x=&quot;90&quot; y=&quot;76&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.clearDisplay()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;O[A2#7uLaxn7B@j-Lt7_&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setCursor(0,0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;5F)G9zL,~uIAmRl-)h8#&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.println(&quot;Button 1 pressed&quot;);&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;*!`^Jxyp*({-oN/u-wA?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.display()&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png"/>
+<attribute NAME="textColor" VALUE="#8a6d3b"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_606847902" CREATED="1474027396725" MODIFIED="1474027396725">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Adafruit_SSD1306_Component"/>
+<attribute NAME="constructorVariant" VALUE="I2C"/>
+<attribute NAME="name" VALUE="display"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Adafruit_SSD1306_Component"/>
+<attribute NAME="constructorArgument.RST" VALUE="24"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_958634808" CREATED="1474025926925" MODIFIED="1474025926925">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+<node TEXT="" ID="ID_412012622" CREATED="1474036476068" MODIFIED="1474036476068">
+<attribute NAME="nodeType" VALUE="variable"/>
+<attribute NAME="dataType" VALUE="char"/>
+<attribute NAME="name" VALUE="text[40]"/>
+<attribute NAME="type" VALUE="variable"/>
+</node>
+<node TEXT="" ID="ID_1103378768" CREATED="1474036503391" MODIFIED="1474036503391">
+<attribute NAME="nodeType" VALUE="variable"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="nr_pressed"/>
+<attribute NAME="type" VALUE="variable"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_558293794" CREATED="1474025926930" MODIFIED="1474025926930">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+<node TEXT="" ID="ID_511478928" CREATED="1474026392941" MODIFIED="1474026392941">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="accessibleViaWeb" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="dataType" VALUE="void"/>
+<attribute NAME="name" VALUE="setup"/>
+<attribute NAME="type" VALUE="function"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;P~D%bauVLiX@L3XWYp#^&quot; x=&quot;98&quot; y=&quot;134&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.begin(SSD1306_SWITCHCAPVCC, 0x3C)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;@x85M/;8QY*E{0#;lHB/&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.clearDisplay()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lJHB.%xG7/uH`htVi3AN&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setTextSize(2)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;mIK=~zR@5GPbv/@N%@B.&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setTextColor(WHITE)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;|`+Bw#THZlD:i|zt.!]i&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setCursor(0,0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;s|J6D%/C}0dxb(wj%zTB&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;nr_pressed&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;G1uxb8W!:.kaY~YM{=Y[&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;!dhSSHSL2:[~ik_QbqWf&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;sprintf(text,&quot;&quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;fJ3O/c}wE|mej*_g5-j(&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.println(&quot;Press that button&quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;!V|Q8C:#*i46/=V%]u-.&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.display()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;VW~g)^I@7/FF8XTrB|7O&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;delay(2000)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<node TEXT="" ID="ID_1389306584" CREATED="1474283343624" MODIFIED="1474283343624">
+<attribute NAME="nodeType" VALUE="function"/>
+<attribute NAME="backgroundColor" VALUE="#f2dede"/>
+<attribute NAME="accessibleViaWeb" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="dataType" VALUE="void"/>
+<attribute NAME="name" VALUE="setup"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;P~D%bauVLiX@L3XWYp#^&quot; x=&quot;98&quot; y=&quot;134&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.begin(SSD1306_SWITCHCAPVCC, 0x3C)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;@x85M/;8QY*E{0#;lHB/&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.clearDisplay()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;lJHB.%xG7/uH`htVi3AN&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setTextSize(2)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;mIK=~zR@5GPbv/@N%@B.&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setTextColor(WHITE)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;|`+Bw#THZlD:i|zt.!]i&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.setCursor(0,0)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;s|J6D%/C}0dxb(wj%zTB&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;nr_pressed&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_math_number&quot; id=&quot;G1uxb8W!:.kaY~YM{=Y[&quot;&gt;&lt;field name=&quot;NUM&quot;&gt;0&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;!dhSSHSL2:[~ik_QbqWf&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;sprintf(text,&quot;Press that button&quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;fJ3O/c}wE|mej*_g5-j(&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.println(&quot;Hello world&quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;!V|Q8C:#*i46/=V%]u-.&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;display.display()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;VW~g)^I@7/FF8XTrB|7O&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;delay(2000)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="label" VALUE="setup():void"/>
+<attribute NAME="icons" VALUE=",servlet/public-resources/org.flowerplatform.resources/images/core/puzzle.png"/>
+<attribute NAME="textColor" VALUE="#a94442"/>
+</node>
+</node>
+</node>
+</node>
+</map>
